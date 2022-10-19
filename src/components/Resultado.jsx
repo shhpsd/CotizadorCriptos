@@ -11,14 +11,14 @@ const Contenedor = styled.div`
     margin-top: 30px;
 `
 const Texto = styled.p`
-font-size: 18px;
+font-size: 16px;
     span {
         font-weight: 700;
     }
 `
 
 const Precio = styled.p`
-    font-size: 30px;
+    font-size: 28px;
     span {
         font-weight: 700;
     }
@@ -39,7 +39,7 @@ function Resultado({resultado}) {
             <Precio>El precio es de: <span>{PRICE}</span></Precio>
             <Texto>El precio mas alto del dia: <span>{HIGHDAY}</span></Texto>
             <Texto>El precio mas bajo del dia: <span>{LOWDAY}</span></Texto>
-            <Texto>Variación ultimas 24 horas: <span>{CHANGEPCT24HOUR}</span></Texto>
+            <Texto>Variación ultimas 24 horas: <span>{CHANGEPCT24HOUR} %</span></Texto>
             <Texto>Ultima actualizacion: <span>{LASTUPDATE}</span></Texto>
 
         </div>
