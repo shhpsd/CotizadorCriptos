@@ -11,14 +11,14 @@ const Contenedor = styled.div`
     margin-top: 30px;
 `
 const Texto = styled.p`
-font-size: 16px;
+font-size: 20px;
     span {
         font-weight: 700;
     }
 `
 
 const Precio = styled.p`
-    font-size: 28px;
+    font-size: 32px;
     span {
         font-weight: 700;
     }
